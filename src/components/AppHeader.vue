@@ -79,7 +79,7 @@ export default{
 @use '../styles/general.scss' as *;
 
 .my_header{
-    height: 100px;
+    padding: 25px 0;
     background-color: #060607;
 }
 .my_logo{
