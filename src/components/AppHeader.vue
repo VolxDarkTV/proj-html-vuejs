@@ -50,7 +50,7 @@ export default{
                 <!-- Nav Bar -->
                 <nav class="d-flex align-items-center">
                     <ul class="d-flex gap-5 align-items-center">
-                        <li v-for="link in links" class="text-white d-flex align-items-center gap-2">
+                        <li v-for="(link, index) in links" :key="index" class="text-white d-flex align-items-center gap-2">
                             <a :href="link.url" class="fw-bold ">{{link.linkName}}</a>
                             <!-- New Link Condition -->
                             <div class="my_new_link d-flex justify-content-center align-items-center text-dark" v-if="link.linkName === 'Store'">
