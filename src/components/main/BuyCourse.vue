@@ -42,6 +42,7 @@
     background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.95)), url(../../../public/images/banner2-2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .my_button{
     background-color: #4154ff;
