@@ -4,6 +4,7 @@ import AppHeader from './components/AppHeader.vue';
 // Main
 import Jumbo from './components/main/Jumbo.vue';
 
+import LastArticles from './components/main/LastArticles.vue';
 import BuyCourse from './components/main/BuyCourse.vue';
 import Sponsor from './components/main/Sponsor.vue';
 import CrossFitWorkOut from './components/main/CrossFitWorkOut.vue';
@@ -14,6 +15,7 @@ export default{
     AppHeader,
     Jumbo,
 
+    LastArticles,
     BuyCourse,
     Sponsor,
     CrossFitWorkOut,
@@ -28,6 +30,7 @@ export default{
   <main>
     <Jumbo/>
 
+    <LastArticles/>
     <BuyCourse/>
     <Sponsor/>
     <CrossFitWorkOut/>
