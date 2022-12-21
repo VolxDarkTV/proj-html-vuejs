@@ -49,7 +49,7 @@ import Card from './last_articles/Card.vue';
                     </a>
                 </div>
 
-                <div class="d-flex gap-5">
+                <div class="d-flex justify-content-between gap-5">
                     <!-- Card to Component -->
                     <Card v-for="(card, index) in cardInfo" :key="index" :item="card"/>
                 </div>
