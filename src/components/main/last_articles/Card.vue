@@ -15,22 +15,22 @@
     <div>
 
         <!-- Card to Component -->
+
         <div>
-            <div>
 
-                <!-- Img -->
-                <div class="my_image">
-                    <img class="my_image_mask" :src="item.img" alt="">
-                </div>
-
-                <!-- info -->
-                <div class="p-3">
-                    <h5>{{item.title}}</h5>
-                    <span class="my_paragraph">{{item.subTitle}}</span>
-                </div>
-
+            <!-- Img -->
+            <div class="my_image">
+                <img class="my_image_mask" :src="item.img" alt="">
             </div>
+
+            <!-- info -->
+            <div class="p-3">
+                <h5>{{item.title}}</h5>
+                <span class="my_paragraph">{{item.subTitle}}</span>
+            </div>
+
         </div>
+
 
     </div>
      
