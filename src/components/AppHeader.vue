@@ -46,6 +46,7 @@ export default{
 
             <!-- Nav Bar Container -->
             <div class="d-flex align-items-center gap-5">
+
                 <!-- Nav Bar -->
                 <nav class="d-flex align-items-center">
                     <ul class="d-flex gap-5 align-items-center">
@@ -67,6 +68,7 @@ export default{
                     <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
                     <font-awesome-icon icon="fa-solid fa-cart-shopping" />
                 </div>
+                
             </div>
 
         </div>
@@ -77,7 +79,6 @@ export default{
 @use '../styles/general.scss' as *;
 
 .my_header{
-    width: 100%;
     height: 100px;
     background-color: #060607;
 }
