@@ -4,6 +4,7 @@ import AppHeader from './components/AppHeader.vue';
 // Main
 import Jumbo from './components/main/Jumbo.vue';
 
+import BuyCourse from './components/main/BuyCourse.vue';
 import Sponsor from './components/main/Sponsor.vue';
 import CrossFitWorkOut from './components/main/CrossFitWorkOut.vue';
 // Footer
@@ -12,6 +13,8 @@ export default{
   components:{
     AppHeader,
     Jumbo,
+
+    BuyCourse,
     Sponsor,
     CrossFitWorkOut,
     AppFooter,
@@ -25,6 +28,7 @@ export default{
   <main>
     <Jumbo/>
 
+    <BuyCourse/>
     <Sponsor/>
     <CrossFitWorkOut/>
   </main>
