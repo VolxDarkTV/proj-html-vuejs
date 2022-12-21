@@ -34,7 +34,7 @@ export default{
 <template>
     <section class="my_footer">
 
-        <div class="container p-5">
+        <div class="container my_container_footer">
 
             <!-- Footer -->
             <div class="d-flex justify-content-between">
@@ -132,6 +132,9 @@ export default{
 
 .my_footer{
     background-color: #060607;
+}
+.my_container_footer{
+    padding: 100px 0;
 }
 .my_logo{
     width: 200px;
