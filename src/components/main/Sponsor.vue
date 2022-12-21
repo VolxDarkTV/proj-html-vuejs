@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <section class="p-5">
-        <div class="container p-5">
+    <section class="my_container">
+        <div class="container">
             
             <div class="d-flex gap-5">
 
@@ -16,7 +16,7 @@
                     </div>
     
                     <!-- Paragraph -->
-                    <p class="text-center">
+                    <p class="my_paragraph text-center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus aliquam blanditiis, rerum nesciunt maxime placeat delectus consectetur minus voluptatem non rem dolorum accusamus qui autem omnis dolores reiciendis sed?
                     </p>
 
@@ -34,7 +34,7 @@
                     </div>
     
                     <!-- Paragraph -->
-                    <p class="text-center">
+                    <p class="my_paragraph text-center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus aliquam blanditiis, rerum nesciunt maxime placeat delectus consectetur minus voluptatem non rem dolorum accusamus qui autem omnis dolores reiciendis sed?
                     </p>
 
@@ -52,7 +52,7 @@
                     </div>
     
                     <!-- Paragraph -->
-                    <p class="text-center">
+                    <p class="my_paragraph text-center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus aliquam blanditiis, rerum nesciunt maxime placeat delectus consectetur minus voluptatem non rem dolorum accusamus qui autem omnis dolores reiciendis sed?
                     </p>
 
@@ -70,7 +70,7 @@
                     </div>
     
                     <!-- Paragraph -->
-                    <p class="text-center">
+                    <p class="my_paragraph text-center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus aliquam blanditiis, rerum nesciunt maxime placeat delectus consectetur minus voluptatem non rem dolorum accusamus qui autem omnis dolores reiciendis sed?
                     </p>
 
@@ -92,8 +92,13 @@
 
 <style lang="scss" scoped>
 @use '../../styles/general.scss' as *;
-
+.my_container{
+    padding: 100px 0;
+}
 .my_img{
     width: 100px;
+}
+.my_paragraph{
+    color: #9d929b;
 }
 </style>
