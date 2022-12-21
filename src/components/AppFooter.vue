@@ -34,7 +34,7 @@ export default{
 <template>
     <section class="my_footer">
 
-        <div class="container">
+        <div class="container p-5">
 
             <!-- Footer -->
             <div class="d-flex justify-content-between">
