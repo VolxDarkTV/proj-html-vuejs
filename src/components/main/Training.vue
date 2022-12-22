@@ -37,7 +37,7 @@ export default{
     <section class="my_back position-relative">
 
         <!-- Card Component -->
-        <div class="my_card_container d-flex justify-content-center gap-5">
+        <div class="my_card_container container d-flex justify-content-center gap-5">
             
             <Card v-for="(card, index) in cardInfo" :key="index" :item="card"/>
 
