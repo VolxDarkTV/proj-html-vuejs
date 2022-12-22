@@ -32,7 +32,7 @@
 @use '../../styles/general.scss' as *;
 .my_image{
     padding: 200px;
-    background-image:linear-gradient(to right, rgba(0, 0, 203, 0.5), rgba(161, 0, 70, 0.5)), url(../../../public/images/banner14-2x.jpg);
+    background-image:linear-gradient(140deg, rgba(0, 0, 179, 0.7), rgba(161, 0, 70, 0.55)), url(../../../public/images/banner14-2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
