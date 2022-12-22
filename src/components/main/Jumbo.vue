@@ -36,7 +36,7 @@
                     <h2 class="text-white fw-bold fs-1">Thake control of your health</h2>
     
                     <!-- Wave -->
-                    <span>Wave</span>
+                    <span class="my_wave">Wave</span>
     
                     <!-- SubTitle -->
                     <p class="my_paragraph fw-bold">
@@ -115,6 +115,9 @@
 // Left
 .my_pretitle{
     color: $brandSecondary;
+}
+.my_wave{
+    color: $yellowBrand;
 }
 .my_paragraph{
     color: $paragraphBrand;
