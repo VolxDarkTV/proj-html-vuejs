@@ -42,7 +42,7 @@
 
                 <div class="my_card rounded-1 d-flex flex-column align-items-center gap-2 p-5">
                     <!-- Icon -->
-                    <span>icon</span>
+                    <font-awesome-icon class="text-white fs-1" icon="fa-solid fa-heart-pulse" />
                     <!-- Title -->
                     <h2 class="text-white">Team training</h2>
 
@@ -63,7 +63,7 @@
 
                 <div class="my_card rounded-1 d-flex flex-column align-items-center gap-2 p-5">
                     <!-- Icon -->
-                    <span>icon</span>
+                    <font-awesome-icon class="text-white fs-1" icon="fa-solid fa-dumbbell" />
                     <!-- Title -->
                     <h2 class="text-white">Team training</h2>
 
@@ -84,7 +84,7 @@
 
                 <div class="my_card rounded-1 d-flex flex-column align-items-center gap-2 p-5">
                     <!-- Icon -->
-                    <span>icon</span>
+                    <font-awesome-icon class="text-white fs-1" icon="fa-solid fa-weight-scale" />
                     <!-- Title -->
                     <h2 class="text-white">Team training</h2>
 
