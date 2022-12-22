@@ -9,20 +9,20 @@ import Card from './social_component/Card.vue';
                 cardInfo: [
                     {
                         img: '../../public/images/video2-2x.jpg',
-                        title: 'The best protein shake',
-                        subTitle: 'By admin | November 26th, 2019 | Gym',
+                        title: 'Things & glute workout',
+                        subTitle: 'Increase your mobility',
 
                     },
                     {
                         img: '../../public/images/video7-2x.jpg',
-                        title: 'Ultimate cardio workout',
-                        subTitle: 'By admin | November 26th, 2019 | Gym',
+                        title: 'Lisft Firm & perk up',
+                        subTitle: 'Feel young again',
 
                     },
                     {
                         img: '../../public/images/video9-2x.jpg',
-                        title: 'New juices aviable now',
-                        subTitle: 'By admin | November 26th, 2019 | Gym',
+                        title: 'Slim & trim your waist',
+                        subTitle: 'Shed those extra prouds',
 
                     },
                 ]
