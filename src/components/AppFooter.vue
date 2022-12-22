@@ -40,7 +40,7 @@ export default{
             <div class="d-flex justify-content-between">
     
                 <!-- Brand Info -->
-                <div class="my_logo d-flex flex-column gap-4">
+                <div class="my_logo d-flex flex-column align-items-center gap-4">
 
                     <div class="d-flex flex-column gap-4">
                         
@@ -56,15 +56,35 @@ export default{
                     </div>
 
                     <!-- Socials -->
-                    <!-- <div>
-                        <ul>
-                            <li v-for="social in brandInfo.socials">
-                                <a :href="social.url">
-                                    <font-awesome-icon class="text-white" icon="fa-brands fa-youtube" />
+                    <div>
+                        <ul class="my_brads d-flex gap-3" >
+                            <li>
+                                <a href="#">
+                                    <font-awesome-icon :icon="['fab', 'facebook-f']" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <font-awesome-icon :icon="['fab', 'twitter']" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <font-awesome-icon :icon="['fab', 'youtube']" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <font-awesome-icon :icon="['fab', 'instagram']" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <font-awesome-icon :icon="['fab', 'linkedin-in']" />
                                 </a>
                             </li>
                         </ul>
-                    </div> -->
+                    </div>
                     
                 </div>
                 
@@ -141,6 +161,9 @@ export default{
 }
 .my_paragraph{
     color: #99989b;
+}
+.my_brads li a{
+    color: $brandSecondary;
 }
 .my_address{
     color: #c4c3c6;

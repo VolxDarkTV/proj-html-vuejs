@@ -1,19 +1,20 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 
 /* import the fontawesome core */
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library } from '@fortawesome/fontawesome-svg-core';
 
 /* import font awesome icon component */
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 /* import specific icons */
 import { faMagnifyingGlass,  faCartShopping, faAngleRight, faPlay, faWindowRestore, faHeartPulse, faDumbbell, faWeightScale} from '@fortawesome/free-solid-svg-icons'
-import { faFacebookF, faYoutube } from '@fortawesome/free-brands-svg-icons'
+
+import { faYoutube, faFacebookF, faTwitter, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faCartShopping, faAngleRight, faFacebookF, faYoutube, faPlay, faWindowRestore, faHeartPulse, faDumbbell, faWeightScale)
+library.add(faYoutube, faFacebookF, faTwitter, faInstagram, faLinkedinIn, faMagnifyingGlass, faCartShopping, faAngleRight, faPlay, faWindowRestore, faHeartPulse, faDumbbell, faWeightScale)
 
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon)
