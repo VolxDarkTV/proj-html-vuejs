@@ -110,11 +110,11 @@ import Card from './social_component/Card.vue';
                 <!-- Mini Title -->
                 <div class="d-flex justify-content-between">
                     <!-- Sub Title -->
-                    <h5>Lastest articles</h5>
+                    <h5>Fetured playlists</h5>
     
                     <!-- More Articles -->
                     <a href="#" class="text-dark">
-                        Read all articles 
+                        View all videos 
                         <font-awesome-icon class="fw-bold" icon="fa-solid fa-angle-right" />
                     </a>
                 </div>
