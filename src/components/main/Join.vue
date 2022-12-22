@@ -65,10 +65,10 @@
                     <!-- Icon -->
                     <font-awesome-icon class="text-white fs-1" icon="fa-solid fa-dumbbell" />
                     <!-- Title -->
-                    <h2 class="text-white">Team training</h2>
+                    <h2 class="text-white">Crossfit workout</h2>
 
                     <!-- Subtitle -->
-                    <span class="my_subtitle">Find a partner</span>
+                    <span class="my_subtitle">Push your limits</span>
 
                     <!-- Paragraph -->
                     <p class="my_paragraph text-center pt-5 pb-5">
@@ -86,10 +86,10 @@
                     <!-- Icon -->
                     <font-awesome-icon class="text-white fs-1" icon="fa-solid fa-weight-scale" />
                     <!-- Title -->
-                    <h2 class="text-white">Team training</h2>
+                    <h2 class="text-white">Weight loss plan</h2>
 
                     <!-- Subtitle -->
-                    <span class="my_subtitle">Find a partner</span>
+                    <span class="my_subtitle">Shed those pounds</span>
 
                     <!-- Paragraph -->
                     <p class="my_paragraph text-center pt-5 pb-5">
