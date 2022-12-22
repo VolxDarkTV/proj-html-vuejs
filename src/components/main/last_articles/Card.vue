@@ -20,7 +20,7 @@
 
             <!-- Img -->
             <div class="my_image">
-                <img class="my_image_mask" :src="item.img" alt="">
+                <img :src="item.img" alt="">
             </div>
 
             <!-- info -->
