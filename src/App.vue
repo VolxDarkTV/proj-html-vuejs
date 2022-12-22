@@ -4,6 +4,7 @@ import AppHeader from './components/AppHeader.vue';
 // Main
 import Jumbo from './components/main/Jumbo.vue';
 
+import Social from './components/main/Social.vue';
 import Join from './components/main/Join.vue';
 import LastArticles from './components/main/LastArticles.vue';
 import BuyCourse from './components/main/BuyCourse.vue';
@@ -16,6 +17,7 @@ export default{
     AppHeader,
     Jumbo,
 
+    Social,
     Join,
     LastArticles,
     BuyCourse,
@@ -31,7 +33,8 @@ export default{
 
   <main>
     <Jumbo/>
-    
+
+    <Social/>
     <Join/>
     <LastArticles/>
     <BuyCourse/>
