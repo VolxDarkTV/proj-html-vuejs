@@ -69,14 +69,14 @@ export default{
                 </div>
                 
                 <!-- Recent Posts -->
-                <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-center gap-3">
 
                     <!-- Title -->
                     <h5 class="text-white">RECENT POSTS</h5>
 
                     <!-- List -->
-                    <ul>
-                        <li class="p-2" v-for="(recentPost, index) in recentPosts" :key="index">
+                    <ul class="d-flex flex-column align-items-center gap-4">
+                        <li v-for="(recentPost, index) in recentPosts" :key="index">
 
                             <font-awesome-icon class="fw-bold text-white" icon="fa-solid fa-angle-right" />
 
