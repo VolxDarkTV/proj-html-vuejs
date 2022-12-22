@@ -1,5 +1,5 @@
 <script>
-
+   
 </script>
 
 <template>
@@ -9,7 +9,7 @@
 
             <div class="d-flex flex-column gap-3">
                 <!-- Pre Title -->
-                <span class="text-danger fw-bold">Join our mailing list today</span>
+                <span class="my_text_join fw-bold">Join our mailing list today</span>
 
                 <!-- Title -->
                 <h2 class="text-white fs-1">Insider offers & flash sales in your <br> inbox every week.</h2>
@@ -32,6 +32,81 @@
         </div>
 
     </section>
+
+    <!-- Card container -->
+    <section class="my_container">
+        <div class="container">
+
+            <!-- Component with card -->
+            <div class="d-flex justify-content-between gap-5">
+
+                <div class="my_card rounded-1 d-flex flex-column align-items-center gap-2 p-5">
+                    <!-- Icon -->
+                    <span>icon</span>
+                    <!-- Title -->
+                    <h2 class="text-white">Team training</h2>
+
+                    <!-- Subtitle -->
+                    <span class="my_subtitle">Find a partner</span>
+
+                    <!-- Paragraph -->
+                    <p class="my_paragraph text-center pt-5 pb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veritatis provident recusandae reprehenderit, odio, harum, atque est quidem inventore expedita omnis eum. Porro earum autem commodi saepe laboriosam sint fugiat.
+                    </p>
+
+                    <!-- Link -->
+                    <a href="#" class="text-white">
+                        Find a partner
+                        <font-awesome-icon class="fw-bold" icon="fa-solid fa-angle-right" />
+                    </a>
+                </div>
+
+                <div class="my_card rounded-1 d-flex flex-column align-items-center gap-2 p-5">
+                    <!-- Icon -->
+                    <span>icon</span>
+                    <!-- Title -->
+                    <h2 class="text-white">Team training</h2>
+
+                    <!-- Subtitle -->
+                    <span class="my_subtitle">Find a partner</span>
+
+                    <!-- Paragraph -->
+                    <p class="my_paragraph text-center pt-5 pb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veritatis provident recusandae reprehenderit, odio, harum, atque est quidem inventore expedita omnis eum. Porro earum autem commodi saepe laboriosam sint fugiat.
+                    </p>
+
+                    <!-- Link -->
+                    <a href="#" class="text-white">
+                        Find a partner
+                        <font-awesome-icon class="fw-bold" icon="fa-solid fa-angle-right" />
+                    </a>
+                </div>
+
+                <div class="my_card rounded-1 d-flex flex-column align-items-center gap-2 p-5">
+                    <!-- Icon -->
+                    <span>icon</span>
+                    <!-- Title -->
+                    <h2 class="text-white">Team training</h2>
+
+                    <!-- Subtitle -->
+                    <span class="my_subtitle">Find a partner</span>
+
+                    <!-- Paragraph -->
+                    <p class="my_paragraph text-center pt-5 pb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veritatis provident recusandae reprehenderit, odio, harum, atque est quidem inventore expedita omnis eum. Porro earum autem commodi saepe laboriosam sint fugiat.
+                    </p>
+
+                    <!-- Link -->
+                    <a href="#" class="text-white">
+                        Find a partner
+                        <font-awesome-icon class="fw-bold" icon="fa-solid fa-angle-right" />
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>
@@ -43,19 +118,34 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.my_text_join{
+    color: $brandSecondary;
+}
 .my_container{
     padding: 150px 0;
+    background-color: #000;
 }
 .my_input{
     width: 500px;
+    color: #000;
 }
 .my_input::placeholder{
     color: #000;
 }
 .my_button{
-    background-color: #4154ff;
+    background-color: $brandPrimary;
+}
+
+// Card container
+.my_card{
+    width: calc(100% / 3 - 3rem);
+    border: solid $brandPrimary 2px;
 }
 .my_paragraph{
-    color: #9d929b;
+    color: $paragraphBrand;
 }
+.my_subtitle{
+    color: $yellowBrand;
+}
+
 </style>
