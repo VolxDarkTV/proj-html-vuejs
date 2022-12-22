@@ -45,7 +45,7 @@
     background-position: center;
 }
 .my_button{
-    background-color: #4154ff;
+    background-color: $brandPrimary;
 }
 .my_button:hover{
     color: black;

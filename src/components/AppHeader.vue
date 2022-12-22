@@ -88,12 +88,12 @@ export default{
 .my_new_link{
     padding: 5px;
     border-radius: 5px;
-    background-color: #fff941;
+    background-color: $yellowBrand;
 }
 .my_button{
-    background-color: #4154ff;
+    background-color: $brandPrimary;
 }
 .my_button:hover{
-    background-color: #ff414b;
+    background-color: $brandSecondary;
 }
 </style>

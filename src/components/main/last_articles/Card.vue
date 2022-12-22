@@ -55,6 +55,6 @@
     // mask-image: linear-gradient(to bottom, rgb(145, 0, 203), rgba(161, 0, 113, 0.7));
 }
 .my_paragraph{
-    color: #9d929b;
+    color: $paragraphBrand;
 }
 </style>

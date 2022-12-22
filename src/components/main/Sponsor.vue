@@ -99,6 +99,6 @@
     width: 100px;
 }
 .my_paragraph{
-    color: #9d929b;
+    color: $paragraphBrand;
 }
 </style>

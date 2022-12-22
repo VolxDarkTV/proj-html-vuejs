@@ -42,9 +42,9 @@
     height: 50px;
 }
 .my_play{
-    color: #4154ff;
+    color: $brandPrimary;
 }
 .my_data{
-    color: #fcf641;
+    color: $yellowBrand;
 }
 </style>
